@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<Pane layoutX="372.0" layoutY="192.0" opacity="0.0" prefHeight="712.0" prefWidth="809.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ventus.rggwheel.controllers.color.InventoryColorController">
+    <Label layoutX="179.0" layoutY="101.0" text="Hints" textFill="WHITE">
+        <font>
+            <Font name="Bit Cell" size="72.0" />
+        </font>
+    </Label>
+    <Label layoutX="261.0" text="Inventory" textAlignment="CENTER">
+        <font>
+            <Font name="Bit Cell" size="96.0" />
+        </font>
+        <textFill>
+            <LinearGradient endY="0.20952380952380953" startX="1.0" startY="1.0">
+                <stops>
+                    <Stop color="RED" />
+                    <Stop color="#ff8800" offset="1.0" />
+                </stops>
+            </LinearGradient>
+        </textFill>
+    </Label>
+    <ImageView fitHeight="351.0" fitWidth="319.0" layoutX="55.0" layoutY="199.0" onMouseClicked="#useHint" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../graphics/manuel_icon.png" />
+    </ImageView>
+    <ImageView fitHeight="450.0" fitWidth="325.0" layoutX="461.0" layoutY="196.0" onMouseClicked="#useReroll" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../graphics/reroll_potion.png" />
+    </ImageView>
+    <Label layoutX="483.0" layoutY="101.0" text="Reroll Potion" textFill="WHITE">
+        <font>
+            <Font name="Bit Cell" size="72.0" />
+        </font>
+    </Label>
+    <Label fx:id="hintsAmount" alignment="CENTER" contentDisplay="CENTER" layoutX="159.0" layoutY="532.0" onMouseClicked="#addHint" text="Left: -" textFill="RED">
+        <font>
+            <Font name="Bit Cell" size="55.0" />
+        </font>
+    </Label>
+    <Label fx:id="rerollPotionAmount" alignment="CENTER" contentDisplay="CENTER" layoutX="545.0" layoutY="532.0" onMouseClicked="#addReroll" text="Left: -" textFill="RED">
+        <font>
+            <Font name="Bit Cell" size="55.0" />
+        </font>
+    </Label>
+</Pane>

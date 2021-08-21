@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ventus.rggwheel.controllers.color.PrizeDescriptionColorController"
+            opacity="0.0" prefHeight="200.0" prefWidth="200.0">
+    <Label alignment="TOP_LEFT" layoutX="387.0" layoutY="197.0" prefHeight="92.0" prefWidth="756.0"
+           text="Your prize:">
+        <font>
+            <Font name="Bit Cell" size="76.0"/>
+        </font>
+        <textFill>
+            <LinearGradient endX="0.47619047619047616" startX="0.4666666666666667">
+                <stops>
+                    <Stop color="#fff900"/>
+                    <Stop color="#ff5f00" offset="1.0"/>
+                </stops>
+            </LinearGradient>
+        </textFill>
+    </Label>
+    <Label fx:id="prizeLabel" layoutX="668.0" layoutY="180.0" prefHeight="105.0" prefWidth="731.0"
+           text="???" textFill="WHITE">
+        <font>
+            <Font name="Bit Cell" size="76.0"/>
+        </font>
+    </Label>
+    <Label alignment="TOP_LEFT" layoutX="388.0" layoutY="269.0" prefHeight="216.0" prefWidth="790.0"
+           text="Effect:" wrapText="true">
+        <font>
+            <Font name="Bit Cell" size="80.0"/>
+        </font>
+        <textFill>
+            <LinearGradient endX="0.47619047619047616" startX="0.4666666666666667">
+                <stops>
+                    <Stop color="#fff900"/>
+                    <Stop color="#ff5f00" offset="1.0"/>
+                </stops>
+            </LinearGradient>
+        </textFill>
+    </Label>
+    <Label fx:id="prizeDescription" alignment="TOP_LEFT" contentDisplay="TOP" layoutX="387.0"
+           layoutY="350.0" prefHeight="528.0" prefWidth="770.0" text="???" textFill="WHITE"
+           wrapText="true">
+        <font>
+            <Font name="Bit Cell" size="80.0"/>
+        </font>
+    </Label>
+</AnchorPane>

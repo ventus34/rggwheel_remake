@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="root_pane" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ventus.rggwheel.controllers.RetroBoyController">
+    <AnchorPane fx:id="retroBoyPane">
+        <ImageView fx:id="backgroundMono" fitHeight="1035.0" fitWidth="1480.0" mouseTransparent="true" pickOnBounds="true">
+            <effect>
+                <ColorAdjust />
+            </effect>
+            <Image url="@retroBoyMono/graphics/background_mono.png" />
+        </ImageView>
+        <ImageView fx:id="backgroundColor" fitHeight="1035.0" fitWidth="1480.0" mouseTransparent="true" opacity="0.0" pickOnBounds="true">
+            <effect>
+                <ColorAdjust />
+            </effect>
+            <Image url="@retroBoyColor/graphics/background_color.png" />
+        </ImageView>
+        <fx:include fx:id="splashColor" source="retroBoyColor/userInterface/splashColor.fxml" />
+        <fx:include fx:id="splashMono" source="retroBoyMono/userInterface/splashMono.fxml" />
+        <fx:include fx:id="prizeDescriptionColor" source="retroBoyColor/userInterface/prizeDescriptionColor.fxml" />
+        <fx:include fx:id="prizeDescriptionMono" source="retroBoyMono/userInterface/prizeDescriptionMono.fxml" />
+        <fx:include fx:id="wheelColor" source="retroBoyColor/userInterface/wheelColor.fxml" />
+        <fx:include fx:id="wheelMono" source="retroBoyMono/userInterface/wheelMono.fxml" />
+        <ImageView fitHeight="1036.0" fitWidth="1478.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+            <Image url="@retroBoyColor/graphics/button_ab.png" />
+        </ImageView>
+        <fx:include fx:id="statisticsColor" source="retroBoyColor/userInterface/statisticsColor.fxml" />
+        <fx:include fx:id="prizesHistoryColor" source="retroBoyColor/userInterface/prizesHistoryColor.fxml" />
+        <fx:include fx:id="prizesHistoryMono" source="retroBoyMono/userInterface/prizesHistoryMono.fxml" />
+        <fx:include fx:id="statisticsMono" source="retroBoyMono/userInterface/statisticsMono.fxml" />
+        <Label fx:id="test" layoutX="83.0" layoutY="751.0" opacity="0.0" prefHeight="127.0" prefWidth="199.0" text="Active effect: Invincibility Potion" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Bit Cell" size="39.0" />
+            </font>
+        </Label>
+        <Label fx:id="rb_color" layoutX="512.0" layoutY="892.0" opacity="0.0" prefHeight="112.0" prefWidth="721.0" text="RETRO BOY" textFill="WHITE">
+            <font>
+                <Font name="Emulogic" size="32.0" />
+            </font>
+        </Label>
+        <Label fx:id="rb_mono" layoutX="640.0" layoutY="902.0" prefHeight="92.0" prefWidth="741.0" text="RETRO BOY" textFill="WHITE">
+            <font>
+                <Font name="Emulogic" size="32.0" />
+            </font>
+        </Label>
+        <fx:include fx:id="inventoryColor" source="retroBoyColor/userInterface/inventoryColor.fxml" />
+        <fx:include fx:id="inventoryMono" source="retroBoyMono/userInterface/inventoryMono.fxml" />
+        <Button fx:id="spinButton" disable="true" layoutX="1350.0" layoutY="452.0" mnemonicParsing="false" onAction="#spinAction" opacity="0.0" prefHeight="92.0" prefWidth="79.0" text="Spin a wheel!">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <Button fx:id="speedUp" disable="true" layoutX="143.0" layoutY="385.0" mnemonicParsing="false" onAction="#moveUp" opacity="0.0" prefHeight="68.0" prefWidth="71.0" text="rotate_up" />
+        <Button fx:id="speedDown" disable="true" layoutX="145.0" layoutY="512.0" mnemonicParsing="false" onAction="#moveDown" opacity="0.0" prefHeight="70.0" prefWidth="71.0" text="rotate_down" />
+        <Button fx:id="timeUp" disable="true" layoutX="209.0" layoutY="441.0" mnemonicParsing="false" onAction="#timeUp" opacity="0.0" prefHeight="87.0" prefWidth="48.0" text="time_up" />
+        <Button fx:id="timeDown" disable="true" layoutX="90.0" layoutY="451.0" mnemonicParsing="false" onAction="#timeDown" opacity="0.0" prefHeight="77.0" prefWidth="60.0" text="time_down" />
+        <Button fx:id="startButton" layoutX="188.0" layoutY="618.0" mnemonicParsing="false" onAction="#start" opacity="0.0" prefHeight="77.0" prefWidth="86.0" text="start" />
+        <Button fx:id="color" layoutX="84.0" layoutY="613.0" mnemonicParsing="false" onAction="#pickColor" opacity="0.0" prefHeight="87.0" prefWidth="91.0" text="info" />
+        <Button fx:id="check" disable="true" layoutX="1287.0" layoutY="543.0" mnemonicParsing="false" onAction="#checkPrize" opacity="0.0" prefHeight="87.0" prefWidth="86.0" text="check" />
+        <Button fx:id="colorMode" layoutX="223.0" layoutY="61.0" mnemonicParsing="false" onAction="#switchMode" opacity="0.0" prefHeight="29.0" prefWidth="48.0" text="mode_switch" />
+    </AnchorPane>
+</Pane>

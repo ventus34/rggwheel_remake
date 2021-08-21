@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ventus.rggwheel.controllers.mono.SplashMonoController"
+            opacity="100.0" prefHeight="647.0" prefWidth="1335.0">
+    <Label alignment="CENTER" contentDisplay="CENTER" layoutX="372.0" layoutY="695.0" prefHeight="218.0"
+           prefWidth="802.0" text="Press START" textAlignment="CENTER" textFill="#214236">
+        <font>
+            <Font name="Bit Cell" size="150.0"/>
+        </font>
+    </Label>
+    <Label layoutX="375.0" layoutY="741.0" opacity="0.08" prefHeight="241.0" prefWidth="1035.0"
+           text="Code: Ventus34" textFill="#101010">
+        <font>
+            <Font name="Bit Cell" size="29.0"/>
+        </font>
+    </Label>
+    <Label layoutX="375.0" layoutY="798.0" opacity="0.08" prefHeight="181.0" prefWidth="619.0"
+           text="Layout created by Freepik" textFill="#101010">
+        <font>
+            <Font name="Bit Cell" size="29.0"/>
+        </font>
+    </Label>
+    <ImageView fitHeight="730.0" fitWidth="859.0" layoutX="367.0" layoutY="188.0"
+               pickOnBounds="true" preserveRatio="true">
+        <Image url="@../graphics/super_wheel_mono.png"/>
+    </ImageView>
+</AnchorPane>

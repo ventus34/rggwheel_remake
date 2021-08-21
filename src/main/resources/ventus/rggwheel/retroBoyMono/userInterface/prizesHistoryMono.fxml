@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.*?>
+<Pane xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="ventus.rggwheel.controllers.mono.PrizesHistoryMonoController"
+      layoutX="370.0" layoutY="192.0" opacity="0.0" prefHeight="712.0"
+      prefWidth="809.0">
+    <Label alignment="CENTER" layoutX="17.0" prefHeight="105.0" prefWidth="802.0" text="Last prizes"
+           textAlignment="CENTER" textFill="#214236">
+        <font>
+            <Font name="Bit Cell" size="96.0"/>
+        </font>
+    </Label>
+    <Label fx:id="pm1" alignment="CENTER" layoutX="5.0" layoutY="150.0" prefHeight="77.0"
+           prefWidth="809.0" text="There will be " textAlignment="CENTER" textFill="#214236">
+        <font>
+            <Font name="Bit Cell" size="72.0"/>
+        </font>
+    </Label>
+    <Label fx:id="pm2" alignment="CENTER" layoutX="5.0" layoutY="227.0" prefHeight="77.0"
+           prefWidth="809.0" text="List of few last spins" textAlignment="CENTER" textFill="#214236">
+        <font>
+            <Font name="Bit Cell" size="72.0"/>
+        </font>
+    </Label>
+    <Label fx:id="pm3" alignment="CENTER" layoutX="5.0" layoutY="304.0" prefHeight="77.0"
+           prefWidth="809.0" text="But..." textAlignment="CENTER" textFill="#214236">
+        <font>
+            <Font name="Bit Cell" size="72.0"/>
+        </font>
+    </Label>
+    <Label fx:id="pm4" alignment="CENTER" layoutX="5.0" layoutY="381.0" prefHeight="77.0"
+           prefWidth="809.0" text="After prizes were moved to another" textAlignment="CENTER"
+           textFill="#214236">
+        <font>
+            <Font name="Bit Cell" size="72.0"/>
+        </font>
+    </Label>
+    <Label fx:id="pm5" alignment="CENTER" layoutX="5.0" layoutY="458.0" prefHeight="77.0"
+           prefWidth="809.0" text="Spreadsheet" textAlignment="CENTER" textFill="#214236">
+        <font>
+            <Font name="Bit Cell" size="72.0"/>
+        </font>
+    </Label>
+    <Label fx:id="pm6" alignment="CENTER" layoutX="6.0" layoutY="535.0" prefHeight="77.0"
+           prefWidth="809.0" text="I'm not sure they're" textAlignment="CENTER" textFill="#214236">
+        <font>
+            <Font name="Bit Cell" size="72.0"/>
+        </font>
+    </Label>
+    <Label fx:id="pm7" alignment="CENTER" layoutX="5.0" layoutY="612.0" prefHeight="77.0"
+           prefWidth="809.0" text="In good order" textAlignment="CENTER" textFill="#214236">
+        <font>
+            <Font name="Bit Cell" size="72.0"/>
+        </font>
+    </Label>
+</Pane>

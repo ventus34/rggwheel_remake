@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane opacity="0.0" prefHeight="1025.0" prefWidth="1480.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ventus.rggwheel.controllers.mono.WheelMonoController">
+   <AnchorPane prefHeight="1035.0" prefWidth="1480.0">
+      <children>
+         <Label layoutX="374.0" layoutY="185.0" prefHeight="87.0" prefWidth="368.0" text="Spin time:" textFill="#314A24">
+            <font>
+               <Font name="Bit Cell" size="80.0" />
+            </font>
+         </Label>
+         <Label fx:id="spinTime" layoutX="627.0" layoutY="177.0" prefHeight="105.0" prefWidth="247.0" text="10" textFill="#50793C">
+            <font>
+               <Font name="Bit Cell" size="80.0" />
+            </font>
+         </Label>
+         <AnchorPane fx:id="monoPane" layoutX="565.0" layoutY="256.0">
+            <children>
+               <ImageView fx:id="wheelMono" fitHeight="552.0" fitWidth="641.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../graphics/wheel_mono.png" />
+                  </image>
+               </ImageView>
+               <Label fx:id="prizeLabel_mono1" layoutX="6.0" layoutY="204.0" prefHeight="94.0" prefWidth="279.0" rotate="10.0" text="Cat in the bag" textFill="#68933E">
+                  <font>
+                   <Font name="Bit Cell" size="46.0" />
+                  </font>
+                  <effect>
+                     <DropShadow blurType="ONE_PASS_BOX" height="29.9" radius="12.965" spread="0.72" width="23.96" />
+                  </effect>
+               </Label>
+               <Label fx:id="prizeLabel_mono2" layoutX="21.0" layoutY="162.0" prefHeight="94.0" prefWidth="279.0" rotate="30.0" text="Cat in the bag" textFill="#68933E">
+                  <font>
+                   <Font name="Bit Cell" size="46.0" />
+                  </font>
+                  <effect>
+                     <DropShadow blurType="ONE_PASS_BOX" height="29.9" radius="12.965" spread="0.72" width="23.96" />
+                  </effect>
+               </Label>
+               <Label fx:id="prizeLabel_mono3" layoutX="52.0" layoutY="127.0" prefHeight="94.0" prefWidth="279.0" rotate="50.0" text="Cat in the bag" textFill="#68933E">
+                  <font>
+                   <Font name="Bit Cell" size="46.0" />
+                  </font>
+                  <effect>
+                     <DropShadow blurType="ONE_PASS_BOX" height="29.9" radius="12.965" spread="0.72" width="23.96" />
+                  </effect>
+               </Label>
+               <Label fx:id="prizeLabel_mono4" layoutX="92.0" layoutY="105.0" prefHeight="94.0" prefWidth="279.0" rotate="70.0" text="Cat in the bag" textFill="#68933E">
+                  <font>
+                   <Font name="Bit Cell" size="46.0" />
+                  </font>
+                  <effect>
+                     <DropShadow blurType="ONE_PASS_BOX" height="29.9" radius="12.965" spread="0.72" width="23.96" />
+                  </effect>
+               </Label>
+               <Label fx:id="prizeLabel_mono5" layoutX="137.0" layoutY="97.0" prefHeight="94.0" prefWidth="279.0" rotate="90.0" text="Cat in the bag" textFill="#68933E">
+                  <font>
+                   <Font name="Bit Cell" size="46.0" />
+                  </font>
+                  <effect>
+                     <DropShadow blurType="ONE_PASS_BOX" height="29.9" radius="12.965" spread="0.72" width="23.96" />
+                  </effect>
+               </Label>
+               <Label fx:id="prizeLabel_mono6" layoutX="181.0" layoutY="106.0" prefHeight="94.0" prefWidth="279.0" rotate="110.0" text="Cat in the bag" textFill="#68933E">
+                  <font>
+                   <Font name="Bit Cell" size="46.0" />
+                  </font>
+                  <effect>
+                     <DropShadow blurType="ONE_PASS_BOX" height="29.9" radius="12.965" spread="0.72" width="23.96" />
+                  </effect>
+               </Label>
+               <Label fx:id="prizeLabel_mono7" layoutX="222.0" layoutY="130.0" prefHeight="94.0" prefWidth="279.0" rotate="130.0" text="Cat in the bag" textFill="#68933E">
+                  <font>
+                   <Font name="Bit Cell" size="46.0" />
+                  </font>
+                  <effect>
+                     <DropShadow blurType="ONE_PASS_BOX" height="29.9" radius="12.965" spread="0.72" width="23.96" />
+                  </effect>
+               </Label>
+               <Label fx:id="prizeLabel_mono8" layoutX="251.0" layoutY="164.0" prefHeight="94.0" prefWidth="279.0" rotate="150.0" text="Cat in the bag" textFill="#68933E">
+                  <font>
+                   <Font name="Bit Cell" size="46.0" />
+                  </font>
+                  <effect>
+                     <DropShadow blurType="ONE_PASS_BOX" height="29.9" radius="12.965" spread="0.72" width="23.96" />
+                  </effect>
+               </Label>
+               <Label fx:id="prizeLabel_mono9" layoutX="266.0" layoutY="207.0" prefHeight="94.0" prefWidth="279.0" rotate="170.0" text="Cat in the bag" textFill="#68933E">
+                  <font>
+                   <Font name="Bit Cell" size="46.0" />
+                  </font>
+                  <effect>
+                     <DropShadow blurType="ONE_PASS_BOX" height="29.9" radius="12.965" spread="0.72" width="23.96" />
+                  </effect>
+               </Label>
+               <Label fx:id="prizeLabel_mono10" layoutX="266.0" layoutY="253.0" prefHeight="94.0" prefWidth="279.0" rotate="190.0" text="Cat in the bag" textFill="#68933E">
+                  <font>
+                   <Font name="Bit Cell" size="46.0" />
+                  </font>
+                  <effect>
+                     <DropShadow blurType="ONE_PASS_BOX" height="29.9" radius="12.965" spread="0.72" width="23.96" />
+                  </effect>
+               </Label>
+               <Label fx:id="prizeLabel_mono11" layoutX="250.0" layoutY="296.0" prefHeight="94.0" prefWidth="279.0" rotate="210.0" text="Cat in the bag" textFill="#68933E">
+                  <font>
+                   <Font name="Bit Cell" size="46.0" />
+                  </font>
+                  <effect>
+                     <DropShadow blurType="ONE_PASS_BOX" height="29.9" radius="12.965" spread="0.72" width="23.96" />
+                  </effect>
+               </Label>
+               <Label fx:id="prizeLabel_mono12" layoutX="221.0" layoutY="330.0" prefHeight="94.0" prefWidth="279.0" rotate="230.0" text="Cat in the bag" textFill="#68933E">
+                  <font>
+                   <Font name="Bit Cell" size="46.0" />
+                  </font>
+                  <effect>
+                     <DropShadow blurType="ONE_PASS_BOX" height="29.9" radius="12.965" spread="0.72" width="23.96" />
+                  </effect>
+               </Label>
+               <Label fx:id="prizeLabel_mono13" layoutX="182.0" layoutY="353.0" prefHeight="94.0" prefWidth="279.0" rotate="250.0" text="Cat in the bag" textFill="#68933E">
+                  <font>
+                   <Font name="Bit Cell" size="46.0" />
+                  </font>
+                  <effect>
+                     <DropShadow blurType="ONE_PASS_BOX" height="29.9" radius="12.965" spread="0.72" width="23.96" />
+                  </effect>
+               </Label>
+               <Label fx:id="prizeLabel_mono14" layoutX="135.0" layoutY="360.0" prefHeight="94.0" prefWidth="279.0" rotate="270.0" text="Cat in the bag" textFill="#68933E">
+                  <font>
+                   <Font name="Bit Cell" size="46.0" />
+                  </font>
+                  <effect>
+                     <DropShadow blurType="ONE_PASS_BOX" height="29.9" radius="12.965" spread="0.72" width="23.96" />
+                  </effect>
+               </Label>
+               <Label fx:id="prizeLabel_mono15" layoutX="90.0" layoutY="352.0" prefHeight="94.0" prefWidth="279.0" rotate="290.0" text="Cat in the bag" textFill="#68933E">
+                  <font>
+                   <Font name="Bit Cell" size="46.0" />
+                  </font>
+                  <effect>
+                     <DropShadow blurType="ONE_PASS_BOX" height="29.9" radius="12.965" spread="0.72" width="23.96" />
+                  </effect>
+               </Label>
+               <Label fx:id="prizeLabel_mono16" layoutX="50.0" layoutY="329.0" prefHeight="94.0" prefWidth="279.0" rotate="310.0" text="Cat in the bag" textFill="#68933E">
+                  <font>
+                   <Font name="Bit Cell" size="46.0" />
+                  </font>
+                  <effect>
+                     <DropShadow blurType="ONE_PASS_BOX" height="29.9" radius="12.965" spread="0.72" width="23.96" />
+                  </effect>
+               </Label>
+               <Label fx:id="prizeLabel_mono17" layoutX="22.0" layoutY="294.0" prefHeight="94.0" prefWidth="279.0" rotate="330.0" text="Cat in the bag" textFill="#68933E">
+                  <font>
+                   <Font name="Bit Cell" size="46.0" />
+                  </font>
+                  <effect>
+                     <DropShadow blurType="ONE_PASS_BOX" height="29.9" radius="12.965" spread="0.72" width="23.96" />
+                  </effect>
+               </Label>
+               <Label fx:id="prizeLabel_mono18" layoutX="7.0" layoutY="252.0" prefHeight="94.0" prefWidth="279.0" rotate="350.0" text="Cat in the bag" textFill="#68933E">
+                  <font>
+                   <Font name="Bit Cell" size="46.0" />
+                  </font>
+                  <effect>
+                     <DropShadow blurType="ONE_PASS_BOX" height="29.9" radius="12.965" spread="0.72" width="23.96" />
+                  </effect>
+               </Label>
+            </children>
+         </AnchorPane>
+         <Label layoutX="459.0" layoutY="299.0" prefHeight="463.0" prefWidth="514.0" text="---&gt;">
+            <font>
+               <Font name="Bit Cell" size="96.0" />
+            </font>
+            <effect>
+               <DropShadow blurType="GAUSSIAN">
+                  <color>
+                     <Color opacity="0.2956521809101105" />
+                  </color>
+               </DropShadow>
+            </effect>
+         </Label>
+         <Label layoutX="370.0" layoutY="570.0" prefHeight="455.0" prefWidth="390.0" text="Controls:" textFill="#314A24">
+            <font>
+               <Font name="Bit Cell" size="60.0" />
+            </font>
+         </Label>
+         <Label layoutX="371.0" layoutY="750.0" prefHeight="184.0" prefWidth="667.0" text="Up/Down - rotate wheel" textFill="#50793C">
+            <font>
+               <Font name="Bit Cell" size="58.0" />
+            </font>
+         </Label>
+         <Label layoutX="371.0" layoutY="810.0" prefHeight="159.0" prefWidth="605.0" text="Left/Right - set spin time" textFill="#50793C">
+            <font>
+               <Font name="Bit Cell" size="58.0" />
+            </font>
+         </Label>
+      </children>
+   </AnchorPane>
+</AnchorPane>

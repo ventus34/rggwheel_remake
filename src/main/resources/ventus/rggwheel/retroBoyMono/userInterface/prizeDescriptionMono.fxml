@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="ventus.rggwheel.controllers.mono.PrizeDescriptionMonoController"
+            opacity="0.0" prefHeight="200.0" prefWidth="200.0">
+    <Label alignment="TOP_LEFT" layoutX="386.0" layoutY="196.0" prefHeight="92.0" prefWidth="644.0"
+           text="Your prize:" textFill="#171702">
+        <font>
+            <Font name="Bit Cell" size="76.0"/>
+        </font>
+    </Label>
+    <Label fx:id="prizeLabel" layoutX="669.0" layoutY="181.0" prefHeight="105.0" prefWidth="738.0"
+           text="???" textFill="#214236">
+        <font>
+            <Font name="Bit Cell" size="76.0"/>
+        </font>
+    </Label>
+    <Label alignment="TOP_LEFT" layoutX="388.0" layoutY="270.0" prefHeight="205.0" prefWidth="790.0"
+           text="Effect:" textFill="#171702" wrapText="true">
+        <font>
+            <Font name="Bit Cell" size="80.0"/>
+        </font>
+    </Label>
+    <Label fx:id="prizeDescription" alignment="TOP_LEFT" contentDisplay="TOP" layoutX="388.0"
+           layoutY="350.0" prefHeight="554.0" prefWidth="781.0" text="???" textFill="#214236"
+           wrapText="true">
+        <font>
+            <Font name="Bit Cell" size="80.0"/>
+        </font>
+    </Label>
+</AnchorPane>

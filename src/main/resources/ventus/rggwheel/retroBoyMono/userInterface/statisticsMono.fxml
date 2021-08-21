@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.*?>
+<Pane xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="ventus.rggwheel.controllers.mono.StatisticsMonoController"
+      layoutX="369.0" layoutY="192.0" opacity="0.0" prefHeight="712.0"
+      prefWidth="809.0">
+    <ImageView fitHeight="478.0" fitWidth="453.0" layoutX="184.0" layoutY="148.0"
+               pickOnBounds="true" preserveRatio="true">
+        <Image url="@../graphics/old_wheel_mono.png"/>
+    </ImageView>
+    <Label layoutX="338.0" layoutY="6.0" text="Stats" textAlignment="CENTER" textFill="#214236">
+        <font>
+            <Font name="Bit Cell" size="96.0"/>
+        </font>
+    </Label>
+    <Label fx:id="ps1_mono" layoutX="128.0" layoutY="302.0" text="4x" textFill="#6b6a2d">
+        <font>
+            <Font name="Bit Cell" size="55.0"/>
+        </font>
+    </Label>
+    <Label fx:id="ps2_mono" layoutX="163.0" layoutY="209.0" text="2x" textFill="#214236">
+        <font>
+            <Font name="Bit Cell" size="55.0"/>
+        </font>
+    </Label>
+    <Label fx:id="ps3_mono" layoutX="233.0" layoutY="140.0" text="-" textFill="#6b6a2d">
+        <font>
+            <Font name="Bit Cell" size="55.0"/>
+        </font>
+    </Label>
+    <Label fx:id="ps4_mono" layoutX="317.0" layoutY="104.0" text="1x" textFill="#214236">
+        <font>
+            <Font name="Bit Cell" size="55.0"/>
+        </font>
+    </Label>
+    <Label fx:id="ps5_mono" layoutX="419.0" layoutY="96.0" text="1x" textFill="#6b6a2d">
+        <font>
+            <Font name="Bit Cell" size="55.0"/>
+        </font>
+    </Label>
+    <Label fx:id="ps6_mono" layoutX="509.0" layoutY="122.0" text="1x" textFill="#6b6a2d">
+        <font>
+            <Font name="Bit Cell" size="55.0"/>
+        </font>
+    </Label>
+    <Label fx:id="ps7_mono" layoutX="584.0" layoutY="174.0" text="3x" textFill="#6b6a2d">
+        <font>
+            <Font name="Bit Cell" size="55.0"/>
+        </font>
+    </Label>
+    <Label fx:id="ps8_mono" layoutX="625.0" layoutY="250.0" text="-" textFill="#6b6a2d">
+        <font>
+            <Font name="Bit Cell" size="55.0"/>
+        </font>
+    </Label>
+    <Label fx:id="ps9_mono" layoutX="645.0" layoutY="339.0" text="-" textFill="#6b6a2d">
+        <font>
+            <Font name="Bit Cell" size="55.0"/>
+        </font>
+    </Label>
+    <Label fx:id="ps10_mono" layoutX="637.0" layoutY="432.0" text="3x" textFill="#6b6a2d">
+        <font>
+            <Font name="Bit Cell" size="55.0"/>
+        </font>
+    </Label>
+    <Label fx:id="ps11_mono" layoutX="584.0" layoutY="517.0" text="-" textFill="#6b6a2d">
+        <font>
+            <Font name="Bit Cell" size="55.0"/>
+        </font>
+    </Label>
+    <Label fx:id="ps12_mono" layoutX="509.0" layoutY="569.0" text="1x" textFill="#6b6a2d">
+        <font>
+            <Font name="Bit Cell" size="55.0"/>
+        </font>
+    </Label>
+    <Label fx:id="ps13_mono" layoutX="411.0" layoutY="601.0" text="2x" textFill="#6b6a2d">
+        <font>
+            <Font name="Bit Cell" size="55.0"/>
+        </font>
+    </Label>
+    <Label fx:id="ps14_mono" layoutX="317.0" layoutY="595.0" text="-" textFill="#6b6a2d">
+        <font>
+            <Font name="Bit Cell" size="55.0"/>
+        </font>
+    </Label>
+    <Label fx:id="ps15_mono" layoutX="226.0" layoutY="549.0" text="1x" textFill="#6b6a2d">
+        <font>
+            <Font name="Bit Cell" size="55.0"/>
+        </font>
+    </Label>
+    <Label fx:id="ps16_mono" layoutX="163.0" layoutY="484.0" text="-" textFill="#6b6a2d">
+        <font>
+            <Font name="Bit Cell" size="55.0"/>
+        </font>
+    </Label>
+    <Label fx:id="ps17_mono" layoutX="128.0" layoutY="406.0" text="2x" textFill="#6b6a2d">
+        <font>
+            <Font name="Bit Cell" size="55.0"/>
+        </font>
+    </Label>
+    <Label layoutX="9.0" layoutY="653.0" text="Total amount of spins:" textAlignment="CENTER"
+           textFill="#214236">
+        <font>
+            <Font name="Bit Cell" size="68.0"/>
+        </font>
+    </Label>
+    <Label fx:id="total_mono" layoutX="483.0" layoutY="646.0" prefHeight="77.0" prefWidth="282.0"
+           text="21" textAlignment="CENTER" textFill="#214236">
+        <font>
+            <Font name="Bit Cell" size="68.0"/>
+        </font>
+    </Label>
+</Pane>
